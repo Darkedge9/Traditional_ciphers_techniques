@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-
+//this is rail fence cipher technique
 string railFenceEncrypt(const string &plaintext, int rails) {
     string ciphertext;
     int len = plaintext.length();
